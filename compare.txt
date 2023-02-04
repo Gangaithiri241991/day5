@@ -1,0 +1,16 @@
+1.Compare two Json have the same properties without order
+
+const object1 = {
+    name: 'Aji',
+    age: '31'
+  };
+      
+  const object2 = {
+    age: '31',
+    name: 'Aji'
+  };
+      
+  JSON.stringify(object1) === JSON.stringify(object2)
+  
+      
+  console.log(object1, object2);
